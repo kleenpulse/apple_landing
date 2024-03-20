@@ -1,0 +1,227 @@
+
+<!DOCTYPE html
+  PUBLIC "html5" "about:legacy-compat">
+<html xml:lang="ru" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2012"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2012"/>
+<meta name="DC.Type" content="reference"/>
+<meta name="DC.Title" content="Выбор"/>
+<meta name="abstract" content="Страница &#34;Выбор&#34; позволяет определяет цвет элемента при выборе или подсвечивании объекта в двух режимах: по умолчанию и выбор сборки. Кроме того, здесь можно выбирать и подсвечивать свойства для перекрестного подсвечивания информации о производстве изделия (PMI)."/>
+<meta name="description" content="Страница &#34;Выбор&#34; позволяет определяет цвет элемента при выборе или подсвечивании объекта в двух режимах: по умолчанию и выбор сборки. Кроме того, здесь можно выбирать и подсвечивать свойства для перекрестного подсвечивания информации о производстве изделия (PMI)."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="cps-r-DocumentProperties-Selection"/>
+<meta name="DC.Language" content="ru"/>
+<link rel="stylesheet" type="text/css" href="../DSDocXML.css"/>
+<title xmlns:mml="http://www.w3.org/1998/Math/MathML">Выбор</title>
+<script xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocHighlight.js">
+  	/* */
+  	</script></head>
+<body onLoad="highlightSearchTerms();" id="cps-r-DocumentProperties-Selection">
+<a xmlns:mml="http://www.w3.org/1998/Math/MathML" name="hj-top"> </a><table xmlns:mml="http://www.w3.org/1998/Math/MathML" class="table1" id="table11"><tr><td><table class="DocHeader"><tr><td class="DocHeader1" colspan="2"><h1>Выбор</h1></td></tr><tr><td class="DocHeader4" colspan="2"/></tr><tr><td class="DocHeader3" colspan="2"><table class="DocThemeIntro" id="table12"><tr><td class="Intro1Only"><p class="header"><p class="abstract">
+    <span class="shortdesc">Страница "Выбор" позволяет определяет цвет элемента при выборе или подсвечивании объекта в двух режимах: по умолчанию и выбор сборки. Кроме того, здесь можно выбирать и подсвечивать свойства для перекрестного подсвечивания информации о производстве изделия (PMI).</span>
+
+    
+    <p>В данном разделе рассмотрены следующие темы:</p>
+  </p>
+<ul><li><a href="#r-Selectioncolor" id="toc_rg" title="Эти свойства позволяют указать цвета для выбранных объектов в режиме по умолчанию и режиме выбора сборки.">Цвет выделения</a></li><li><a href="#r-Highlightcolor" id="toc_rg" title="Эти свойства позволяют указать цвета для подсвечиваемых объектов в режиме по умолчанию и режиме выбора сборки.">Цвет подсветки</a></li><li><a href="#r-PMICross-highlight" id="toc_rg" title="Укажите свойства выбранных и подсвеченных объектов для поперечного высвечивания на основе информации о производстве изделия (PMI).">Перекрестное подсвечивание PMI</a></li></ul>
+</p></td></tr></table></td></tr></table>
+
+  
+
+  
+  <div class="topic reference nested1" id="r-Selectioncolor">
+    <h2 class="title topictitle2">Цвет выделения</h2>
+
+    
+    <div class="body refbody"><p class="abstract">
+      <span class="shortdesc"> Эти свойства позволяют указать цвета для выбранных объектов в режиме по умолчанию и режиме выбора сборки.</span>
+
+    </p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="void" border="1" rules="all">
+          
+          
+          <thead class="thead" align="left">
+            <tr class="row">
+              <th class="entry" valign="top" id="d39792e44">Имя команды</th>
+
+              <th class="entry" valign="top" id="d39792e47">Описание</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody class="tbody">
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e44 ">
+                <span class="ph uicontrol">По умолчанию</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e47 ">Указывает цвет выбора в режиме по умолчанию. </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e44 ">
+                <span class="ph uicontrol">Сборка</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e47 ">Указывает цвет выбора в режиме выбора сборки. </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+</div>
+
+    </div>
+
+  </div>
+
+  <div class="topic reference nested1" id="r-Highlightcolor">
+    <p><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 class="title topictitle2">Цвет подсветки</h2>
+
+    
+    <div class="body refbody"><p class="abstract">
+      <span class="shortdesc"> Эти свойства позволяют указать цвета для подсвечиваемых объектов в режиме по умолчанию и режиме выбора сборки.</span>
+
+    </p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="void" border="1" rules="all">
+          
+          
+          <thead class="thead" align="left">
+            <tr class="row">
+              <th class="entry" valign="top" id="d39792e108">Имя команды</th>
+
+              <th class="entry" valign="top" id="d39792e111">Описание</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody class="tbody">
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e108 ">
+                <span class="ph uicontrol">По умолчанию</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e111 ">Указывает цвет выделения в режиме по умолчанию. </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e108 ">
+                <span class="ph uicontrol">Сборка</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e111 ">Указывает цвет выделения в режиме выбора сборки. </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+</div>
+
+    </div>
+
+  </div>
+
+  <div class="topic reference nested1" id="r-PMICross-highlight">
+    <p><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 class="title topictitle2">Перекрестное подсвечивание PMI</h2>
+
+    
+    <div class="body refbody"><p class="abstract">
+      <span class="shortdesc">Укажите свойства выбранных и подсвеченных объектов для поперечного высвечивания на основе информации о производстве изделия (PMI).</span>
+
+      <p>Вы можете выбрать или выделить PMI как из дерева сборок, так и из окна просмотра. </p>
+      <p>Прим.:
+		
+        <ul class="ul">
+          <li class="li">Эта функция доступна только в Composer Player Pro.</li>
+
+          <li class="li">Выбор или подсвечивание PMI теперь позволяет выбрать или подсветить вспомогательную геометрию также как и связанную геометрию (при том, что вся геометрия является такой же частью продукта). В этом случае все связанные геометрии появляются как выбранные, даже если геометрия скрыта (не видна). </li>
+
+          <li class="li">Убедитесь, что вы не перемещали PMI, поскольку это может негативно сказаться на механизме перекрестного подсвечивания. </li>
+
+        </ul>
+
+      </p>
+
+    </p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="void" border="1" rules="all">
+          
+          
+          <thead class="thead" align="left">
+            <tr class="row">
+              <th class="entry" valign="top" id="d39792e190">Имя команды</th>
+
+              <th class="entry" valign="top" id="d39792e193">Описание</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody class="tbody">
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e190 ">
+                <span class="ph uicontrol">Оставаться наверху</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e193 ">
+                <p>При выборе или подсвечивании соответствующей информации о производстве продукта (PMI) скрытые поверхности становятся видимыми. <p>Прим.:
+		Если используется инструмент Digger с отключенным параметром <span class="ph uicontrol">Оставаться сверху</span>, то при выборе или подсвечивании связанной PMI скрытые поверхности могут быть видимыми.</p>
+</p>
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e190 ">
+                <span class="ph uicontrol">Непрозрачность выбранного элемента</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e193 ">
+                <p>Установка непрозрачности привязанной поверхности: от 0 (прозрачный) до 128 (просвечивающий). </p>
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e190 ">
+                <span class="ph uicontrol">Цвет выделения</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e193 ">Установка цвета поверхности, привязанной к выбранной PMI.</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" headers="d39792e190 ">
+                <span class="ph uicontrol">Цвет подсветки</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d39792e193 ">Установка цвета поверхности, привязанной к подсвеченной PMI.</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+</div>
+
+    </div>
+
+  </div>
+
+
+</td></tr></table><script xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocStats.js">/* */</script></body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

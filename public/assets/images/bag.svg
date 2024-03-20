@@ -1,0 +1,41 @@
+   </thead>
+
+          <tbody class="tbody">
+            <tr class="row">
+              <td class="entry" valign="top" headers="d18622e208 ">
+                <span class="ph uicontrol">Задать как SOLIDWORKS</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d18622e211 ">Использует поведение мыши SOLIDWORKS, заданное по умолчанию. </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" headers="d18622e208 ">
+                <span class="ph uicontrol">Сброс</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d18622e211 ">Использует поведение мыши Composer, заданное по умолчанию.</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+</div>
+
+    </div>
+
+  </div>
+
+  <div class="topic concept nested1" id="c-Actions">
+    <p><map name="FPMap1"><area href="#hj-top" title="Back to Top" shape="rect" coords="416, 0, 435, 10"/></map><img border="0" src="../IconsReference/butix_top_wline.png" width="436" height="11" usemap="#FPMap1"/></p><h2 class="title topictitle2">Действия</h2>
+
+    
+    <div class="body conbody"><p class="abstract">
+      <span class="shortdesc">Здесь описываются все действия, которые могут быть связаны с кнопкой мыши и поведением колеса мыши.</span>
+
+    </p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summ

@@ -1,0 +1,37 @@
+�з буфера обмена.</span>
+
+    </p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="void" border="1" rules="all">
+          
+          
+          <thead class="thead" align="left">
+            <tr class="row">
+              <th class="entry" valign="top" id="d231e102">Содержимое буфера обмена </th>
+
+              <th class="entry" valign="top" id="d231e105">Результат операции вставки </th>
+
+            </tr>
+
+          </thead>
+
+          <tbody class="tbody">
+            
+            <tr class="row">
+              <td class="entry" valign="top" headers="d231e102 ">Объект оформления </td>
+
+              <td class="entry" valign="top" headers="d231e105 ">
+
+Новый объект этого типа будет добавлен с именем <span class="ph filepath">Copy 
+<var class="keyword varname">n</var> of 
+<var class="keyword varname">original_name</var></span><cite class="cite">. </cite><p>Прим.:
+		 Копировать и вставлять объекты оформления можно между разными документами Composer, а также между приложениями Composer. </p>
+</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry" valign="top" headers="d231e102 ">Изображение поддерживаемого формата (BMP, JPG и т. д.) </td>
+
+       

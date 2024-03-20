@@ -1,0 +1,72 @@
+
+<!DOCTYPE html
+  PUBLIC "html5" "about:legacy-compat">
+<html xml:lang="ru" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright 2012"/>
+<meta name="DC.rights.owner" content="(C) Copyright 2012"/>
+<meta name="DC.Type" content="concept"/>
+<meta name="DC.Title" content="Перемещение"/>
+<meta name="abstract" content="Страница &#34;Навигация&#34; позволяет настроить поведение кнопок и колеса мыши."/>
+<meta name="description" content="Страница &#34;Навигация&#34; позволяет настроить поведение кнопок и колеса мыши."/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="cps-c-cu-ApplicationPreferences-Navigation"/>
+<meta name="DC.Language" content="ru"/>
+<link rel="stylesheet" type="text/css" href="../DSDocXML.css"/>
+<title xmlns:mml="http://www.w3.org/1998/Math/MathML">Перемещение</title>
+<script xmlns:mml="http://www.w3.org/1998/Math/MathML" type="text/javascript" src="../DSDocHighlight.js">
+  	/* */
+  	</script></head>
+<body onLoad="highlightSearchTerms();" id="cps-c-cu-ApplicationPreferences-Navigation">
+<a xmlns:mml="http://www.w3.org/1998/Math/MathML" name="hj-top"> </a><table xmlns:mml="http://www.w3.org/1998/Math/MathML" class="table1" id="table11"><tr><td><table class="DocHeader"><tr><td class="DocHeader1" colspan="2"><h1>Перемещение</h1></td></tr><tr><td class="DocHeader4" colspan="2"/></tr><tr><td class="DocHeader3" colspan="2"><table class="DocThemeIntro" id="table12"><tr><td class="Intro1Only"><p class="header"><p class="abstract">
+    <span class="shortdesc">Страница "Навигация" позволяет настроить поведение кнопок и колеса мыши.</span>
+
+    <p>В данном разделе рассмотрены следующие темы:</p>
+  </p>
+<ul><li><a href="#c-Mousebuttoncustomization" id="toc_rg" title="Настройте функции кнопок мыши.">Настройка кнопок мыши </a></li><li><a href="#c-MouseBehaviorCustomizationCommands" id="toc_rg" title="Эти команды позволяют задать поведение мыши по умолчанию.">Команды настройки поведения мыши</a></li><li><a href="#c-Actions" id="toc_rg" title="Здесь описываются все действия, которые могут быть связаны с кнопкой мыши и поведением колеса мыши.">Действия</a></li></ul>
+</p></td></tr></table></td></tr></table>
+
+  
+
+  
+  <div class="body conbody"/>
+
+  <div class="topic concept nested1" id="c-Mousebuttoncustomization">
+    <h2 class="title topictitle2">Настройка кнопок мыши </h2>
+
+    
+    <div class="body conbody"><p class="abstract">
+      <span class="shortdesc">Настройте функции кнопок мыши.</span>
+
+    </p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="void" border="1" rules="all">
+          
+          
+          
+          <thead class="thead" align="left">
+            <tr class="row">
+              <th class="entry" valign="top" id="d18622e46">Кнопка мыши</th>
+
+              <th class="entry" valign="top" id="d18622e49">Клавиша клавиатуры</th>
+
+              <th class="entry" valign="top" id="d18622e52">Описание </th>
+
+            </tr>
+
+          </thead>
+
+          <tbody class="tbody">
+            <tr class="row">
+              <td class="entry" rowspan="2" valign="top" headers="d18622e46 ">
+                
+                <img class="image" src="../PypUserImages/MouseRightButton.png"/>
+              </td>
+
+              <td class="entry" valign="top" headers="d18622e49 ">
+                <span class="ph uicontrol">+ (нет)</span>
+              </td>
+
+              <td class="entry" valign="top" headers="d18622e52 ">Указывает действ
