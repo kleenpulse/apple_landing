@@ -1,14 +1,19 @@
+import { ReactLenis } from "@studio-freight/react-lenis";
 import Navbar from "./components/navigations/Navbar";
 import Hero from "./components/sections/Hero";
-import Hightlights from "./components/sections/Hightlights";
+import HighLights from "./components/sections/HightLights";
+import Model from "./components/sections/Model";
 
 const App = () => {
 	return (
-		<main className="">
-			<Navbar />
-			<Hero />
-			<Hightlights />
-		</main>
+		<ReactLenis root>
+			<main className="">
+				<Navbar />
+				<Hero />
+				<HighLights />
+				<Model />
+			</main>
+		</ReactLenis>
 	);
 };
 

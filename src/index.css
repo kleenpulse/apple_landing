@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: auto;
 }
 
 body {
@@ -51,7 +52,7 @@ canvas {
 	}
 
 	.size-btn {
-		@apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all;
+		@apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all duration-300;
 	}
 
 	.common-padding {
