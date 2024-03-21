@@ -12,6 +12,16 @@ export default {
           300: "#42424570",
         },
         zinc: "#101010",
+        primary: "#007afd",
+      },
+      animation: {
+        "loadspin": "loadspin 1.2s linear infinite",
+      },
+      keyframes: {
+        loadspin: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
       },
     },
   },
