@@ -11,10 +11,13 @@ import { Suspense, useEffect, useState } from "react";
 
 const App = () => {
 	const [isLoaded, setIsLoaded] = useState(true);
+	const [showModel, setShowModel] = useState(false);
 
 	useEffect(() => {
 		if ("ontouchstart" in window) {
 			setIsLoaded(false);
+		} else {
+			setShowModel(true);
 		}
 		window.addEventListener("load", () => {
 			setIsLoaded(false);
@@ -23,11 +26,12 @@ const App = () => {
 	return (
 		<ReactLenis root>
 			{isLoaded && <Apple />}
-			<main className="">
+			<main className="overflow-clip">
 				<Navbar />
 				<Hero />
 				<HighLights />
-				<Model />
+				{showModel && <Model />}
+
 				<Features />
 				<HowItWorks />
 				<Footer />

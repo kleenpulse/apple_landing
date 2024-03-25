@@ -52,7 +52,7 @@ const Model = () => {
 	}, []);
 
 	return (
-		<section className="common-padding overflow-hidden">
+		<section className="common-padding overflow-hidden ">
 			<div className="screen-max-width">
 				<h1 id="heading" className="section-heading">
 					Take a closer look.
@@ -80,9 +80,10 @@ const Model = () => {
 						/>
 
 						<Canvas
-							className="w-full h-full max-w-[1200px] mx-auto"
+							className="w-full h-full max-w-[1200px] mx-auto "
 							style={{
 								position: "fixed",
+								zIndex: -1,
 								top: 0,
 								left: 0,
 								right: 0,

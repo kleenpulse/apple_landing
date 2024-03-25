@@ -54,7 +54,7 @@ const Hero = () => {
 				<div className="md:w-10/12 w-9/12">
 					<video
 						ref={videoRef}
-						className="pointer-events-none"
+						className="pointer-events-none "
 						autoPlay
 						muted
 						playsInline={true}
