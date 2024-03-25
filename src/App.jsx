@@ -13,6 +13,9 @@ const App = () => {
 	const [isLoaded, setIsLoaded] = useState(true);
 
 	useEffect(() => {
+		if ("ontouchstart" in window) {
+			setIsLoaded(false);
+		}
 		window.addEventListener("load", () => {
 			setIsLoaded(false);
 		});
