@@ -1,12 +1,17 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { heroVideo, smallHeroVideo } from "../../utils";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
 	const [videoSrc, setVideoSrc] = useState(
 		window.innerWidth < 760 ? smallHeroVideo : heroVideo
 	);
+
+	const videoRef = useRef(null);
 
 	const handleVideoSrcSet = () => {
 		if (window.innerWidth < 760) {
@@ -20,11 +25,22 @@ const Hero = () => {
 		window.addEventListener("resize", handleVideoSrcSet);
 
 		return () => {
-			window.removeEventListener("reisze", handleVideoSrcSet);
+			window.removeEventListener("resize", handleVideoSrcSet);
 		};
 	}, []);
 
 	useGSAP(() => {
+		gsap.to(videoRef.current, {
+			scrollTrigger: {
+				trigger: videoRef.current,
+				toggleActions: "play pause reverse restart",
+				start: "10% top",
+			},
+			onComplete: () => {
+				videoRef.current.play();
+			},
+		});
+
 		gsap.to("#hero", { opacity: 1, delay: 2 });
 		gsap.to("#cta", { opacity: 1, y: -50, delay: 2 });
 	}, []);
@@ -37,6 +53,7 @@ const Hero = () => {
 				</p>
 				<div className="md:w-10/12 w-9/12">
 					<video
+						ref={videoRef}
 						className="pointer-events-none"
 						autoPlay
 						muted

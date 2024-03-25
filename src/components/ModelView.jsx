@@ -20,8 +20,9 @@ const ModelView = ({
 			index={index}
 			id={gsapType}
 			className={cn(
-				"w-full h-full absolute",
-				index === 2 ? "right-[-100%]" : ""
+				"w-full h-full absolute overflow-hidden",
+
+				index === 2 ? "right-[-100%] " : ""
 			)}
 		>
 			<ambientLight intensity={0.4} />
@@ -45,7 +46,7 @@ const ModelView = ({
 			>
 				<Suspense fallback={<LoadingSpinner />}>
 					<IPhone
-						scale={index === 1 ? [15, 15, 15] : [17, 17, 17]}
+						scale={index === 1 ? [16, 16, 16] : [19, 19, 19]}
 						item={item}
 						size={size}
 					/>

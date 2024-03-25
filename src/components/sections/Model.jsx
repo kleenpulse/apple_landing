@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ModelView from "../ModelView";
 import { useEffect, useRef, useState } from "react";
-import { yellowImg } from "../../utils";
+import { cn, yellowImg } from "../../utils";
 import * as THREE from "three";
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
@@ -52,14 +52,14 @@ const Model = () => {
 	}, []);
 
 	return (
-		<section className="common-padding">
+		<section className="common-padding overflow-hidden">
 			<div className="screen-max-width">
 				<h1 id="heading" className="section-heading">
 					Take a closer look.
 				</h1>
 
 				<div className="flex flex-col items-center mt-5">
-					<div className="w-full h-[75vh] md:h-[95vh] overflow-hidden relative">
+					<div className="w-full h-[75vh] xl:h-[85vh] overflow-hidden relative ">
 						<ModelView
 							index={1}
 							groupRef={small}
@@ -80,7 +80,7 @@ const Model = () => {
 						/>
 
 						<Canvas
-							className="w-full h-full"
+							className="w-full h-full max-w-[1200px] mx-auto"
 							style={{
 								position: "fixed",
 								top: 0,
@@ -104,7 +104,10 @@ const Model = () => {
 										role="button"
 										tabIndex={0}
 										key={idx}
-										className="w-6 h-6 rounded-full mx-2"
+										className={cn(
+											"size-6 rounded-full mx-2 ",
+											model === item && "border border-blue"
+										)}
 										style={{ backgroundColor: item.color[0] }}
 										onClick={() => setModel(item)}
 									/>
